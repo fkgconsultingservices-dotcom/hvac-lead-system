@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>24/7 EMERGENCY AC REPAIR - LAS VEGAS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body { 
+            font-family: Arial, sans-serif; 
+            text-align: center; 
+            padding: 15px; 
+            background: #f0f8ff; /* Light blue background */
+            margin: 0;
+        }
+        .card {
+            background: white;
+            border-radius: 10px;
+            padding: 25px;
+            margin: 20px auto;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            max-width: 95%;
+        }
+        h1 {
+            color: #c0392b; /* Vegas red */
+            font-size: 24px;
+            margin-bottom: 15px;
+        }
+        .button {
+            display: block;
+            background: #2980b9; /* Deep blue */
+            color: white;
+            padding: 16px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: bold;
+            margin: 25px 0;
+            font-size: 18px;
+            box-shadow: 0 3px 6px rgba(0,0,0,0.16);
+        }
+        .urgent {
+            color: #e74c3c;
+            font-weight: bold;
+            font-size: 18px;
+            margin: 15px 0;
+        }
+        .note {
+            font-size: 14px;
+            color: #7f8c8d;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1>⚠️ SIN CITY COOL EMERGENCY AC SERVICE</h1>
+        <p>Your request has been prioritized! A certified Las Vegas HVAC technician is preparing to contact you.</p>
+        
+        <div class="urgent">
+            ⏱️ Expected callback time: <strong>90 SECONDS</strong>
+        </div>
+        
+        <a href="tel:702-XXX-XXXX" class="button">☎️ CALL TECH NOW: (702) XXX-XXXX</a>
+        
+        <p class="note">24/7 service · Licensed & Insured · Serving Las Vegas Locals<br>Current temp: 111°F | Heat Advisory Active</p>
+    </div>
+    
+    <script>
+        // Show local time
+        document.addEventListener('DOMContentLoaded', function() {
+            const now = new Date();
+            document.getElementById('time').innerText = 
+                now.toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'});
+        });
+    </script>
+</body>
+</html>
